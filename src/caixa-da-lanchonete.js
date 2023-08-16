@@ -106,19 +106,6 @@ class CaixaDaLanchonete {
         }
 
         return valorTotal += precoProduto
-
-
-
-        // if (metodoDePagamento === 'credito') {
-        //     return `R$ ${this.acrescimoPagamentoCredito(valorTotal).replace('.', ',')}`
-        // }
-
-        // if (metodoDePagamento === 'debito') {
-        //     return `R$ ${(valorTotal).toFixed(2).replace('.', ',')}`
-        // }
-
-        console.log(valorTotal);
-        return valorTotal
     }
 
     validacaoCompra(metodoDePagamento, itens) {
